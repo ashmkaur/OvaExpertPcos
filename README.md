@@ -1,54 +1,32 @@
-# React + TypeScript + Vite
+ # OvaExpert
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+OvaExpert is a web application designed to assist women in identifying potential PCOD (Polycystic Ovarian Disorder) symptoms using an AI-powered diagnostic test. The platform integrates authentication, a questionnaire-based test, and a predictive model to provide insights based on user inputs.
 
-Currently, two official plugins are available:
+# ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+PCOD Assessment - AI-powered test for identifying potential PCOD symptoms.
 
-## Expanding the ESLint configuration
+Authentication - Secure user login/signup using Appwrite.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+User Dashboard - Personalized insights and recommendations.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Responsive UI - Built with Vite and React for a smooth experience.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+# 🛠️ Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Frontend:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Vite + React - Modern, fast, and optimized UI.
+
+React Router - Smooth navigation.
+
+Appwrite - Authentication and database management.
+
+# Backend:
+
+Flask - Lightweight API for handling test requests.
+
+Machine Learning Model - model.pkl for predicting PCOD likelihood.
+
+CSV Dataset - Contains training data for the model.
+
