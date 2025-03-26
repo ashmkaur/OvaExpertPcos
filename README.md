@@ -4,13 +4,13 @@ OvaExpert is a web application designed to assist women in identifying potential
 
 # ✨ Features
 
-# PCOD Assessment - AI-powered test for identifying potential PCOD symptoms.
+PCOD Assessment - AI-powered test for identifying potential PCOD symptoms.
 
-# Authentication - Secure user login/signup using Appwrite.
+Authentication - Secure user login/signup using Appwrite.
 
-# User Dashboard - Personalized insights and recommendations.
+User Dashboard - Personalized insights and recommendations.
 
-# Responsive UI - Built with Vite and React for a smooth experience.
+Responsive UI - Built with Vite and React for a smooth experience.
 
 # 🛠️ Tech Stack
 
