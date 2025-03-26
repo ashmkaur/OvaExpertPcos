@@ -150,9 +150,18 @@ const counsel = () => {
 
           <div className='flex flex-col gap-2 mt-10'>
           <span className= 'text-black'>PCOS probability (prediction)</span>  
-          <div className='w-full h-10 rounded-lg bg-pink-100 flex justify-items-center p-2'>{prediction_pcos && <p className='text-xl '>{(prediction_pcos*100).toFixed(2)}</p>}</div>
+          <div className='w-full h-10 rounded-lg bg-pink-100 flex justify-items-center p-2'>
+          {prediction_pcos ? (
+              <p className="text-xl">{(prediction_pcos * 100).toFixed(2)}</p>) : (
+              <p className='text-gray-300'>Predicting...</p>
+          )}
+          </div>
           <span className=' text-black'>Not having PCOS probability (prediction)</span> 
-          <div className='w-full h-10 rounded-lg bg-pink-100 flex justify-items-center p-2'>{prediction_no_pcos && <p className='text-xl '>{(prediction_no_pcos*100).toFixed(2)}</p>}</div>
+          <div className='w-full h-10 rounded-lg bg-pink-100 flex justify-items-center p-2'>
+          {prediction_no_pcos ? (
+              <p className="text-xl">{(prediction_no_pcos * 100).toFixed(2)}</p>) : (
+              <p className='text-gray-300'>Predicting...</p>
+          )}</div>
         </div>
 
         </div>

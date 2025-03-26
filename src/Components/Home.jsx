@@ -6,7 +6,7 @@ function Home() {
 
   return (
 
-    <div className='bg-white w-full h-screen'>
+    <div className='bg-white w-full min-h-[80vh]'>
         <div className='flex'>
            <Pcos_text/>
            <Pcos_image/>
