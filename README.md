@@ -10,7 +10,7 @@ Authentication - Secure user login/signup using Appwrite.
 
 User Dashboard - Personalized insights and recommendations.
 
-Responsive UI - Built with Vite and React for a smooth experience.
+Responsive UI - Still not compatible with phone UI works well with large screens.
 
 # 🛠️ Tech Stack
 
@@ -29,4 +29,7 @@ Flask - Lightweight API for handling test requests.
 Machine Learning Model - model.pkl for predicting PCOD likelihood.
 
 CSV Dataset - Contains training data for the model.
+
+# Site deployed on --
+ovaexpertpcos.onrender.com
 
